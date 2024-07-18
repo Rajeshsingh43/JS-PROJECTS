@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo image{
+    width: 33%;
+    border: 3px solid white;
+ border-radius: 50px;
+}
+
+.navbar{
+    display: flex;
+
+}
+.nav-list{
+    background-color: black;
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+}
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+
+}
+.nav-list:hover{
+    color: grey;
+}
+.rightNav{
+    width: 50%;
+    text-align: center;
+}
+#search{
+    padding: 50%;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+.background{
+   
+    background-color: rgba(0, 0 ,0 ,0.7 )url('D:\js projects\website project\image\nyc-4854718__340.webp');
+    background-size: cover;
+    background-blend-mode: darken;
+}
